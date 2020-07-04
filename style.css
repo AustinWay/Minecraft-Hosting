@@ -1,0 +1,46 @@
+/* 
+Name: Austin Way 
+Date: 7-04-2020
+Description: Custom styling for Minecraft Hosting website
+*/
+
+:root {
+    /* colors based on the Dracula theme */
+    --black: #282a36;
+    --red: #ff5555;
+    --green: #50fa7b;
+    --yellew: #f1fa8c;
+    --purple: #bd93f9;
+    --pink: #ff79c6;
+    --cyan: #8be9fd;
+    --gray: #bfbfbf;
+
+    --mute-black: #44475a;
+    --mute-red: #ff6e67;
+    --mute-green: #5af78e;
+    --mute-yellow: #f4f99d;
+    --mute-purple: #caa9fa;
+    --mute-pink: #ff92d0;
+    --mute-cyan: #9aedfe;
+    --mute-gray: #f8f8f2;
+
+    /* https://draculatheme.com/contribute/ */
+    --background: #282a36;	
+    --currentLine: #44475a;	
+    --foreground: #f8f8f2;	
+    --comment:	#6272a4;	
+  }
+
+  /* importing Nunito Font from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+  body {
+    font-family: 'Nunito', sans-serif !important;
+    background-color: var(--mute-black);
+    color: var(--mute-gray);
+  }
+
+  .card {
+    background-color: var(--gray);
+    color: var(--black);
+  }
