@@ -25,7 +25,7 @@ Description: Custom styling for Minecraft Hosting website
     --mute-gray: #f8f8f2;
 
     /* https://draculatheme.com/contribute/ */
-    --background: #282a36;	
+    --background: #eeeeee;	
     --currentLine: #44475a;	
     --foreground: #f8f8f2;	
     --comment:	#6272a4;	
@@ -36,11 +36,36 @@ Description: Custom styling for Minecraft Hosting website
 
   body {
     font-family: 'Nunito', sans-serif !important;
-    background-color: var(--mute-black);
-    color: var(--mute-gray);
-  }
+    background-color: var(--mute-black) !important;
+}
 
-  .card {
-    background-color: var(--gray);
-    color: var(--black);
-  }
+.card {
+  background-color: var(--gray);
+  color: var(--black);
+}
+
+.play-container {
+    padding: 2em;
+    height: 90%;
+    width: 90%;
+    border-radius: .5em;
+    box-shadow: 
+    -12px -12px 12px 0 rgba(255,255,255,1),
+    12px 12px 12px 0 rgba(0,0,0,.03);
+}
+
+.text-mute-purple {
+  color: var(--mute-purple);
+}
+
+.text-purple {
+  color: #9272D2;
+}
+
+.jumbotron {
+  background-color: var(--background) !important;
+}
+
+.text-dark-green {
+  color: #28a745;
+}
