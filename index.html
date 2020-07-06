@@ -6,89 +6,99 @@ Description: Homepage for Minecraft Hosting website
 
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- custom CSS -->
     <link rel="stylesheet" href="style.css">
 
     <title>Minecraft Hosting</title>
-  </head>
-  <body>
-    <h1>Minecraft Hosting</h1>
+</head>
 
-      <div class="container">
-        <div class="row">
-            <div class="col-sm-4 pt-2 mb-2">
-                    <div class="card" style="width: auto">
-                        <img class="card-img-top" src="images\dirt500x500.png" alt="Dirt" style="width:100%">
-                        <div class="card-body">
-                            <h3 class="card-title">Starter</h3>
-                            <p class="card-text">$3.00/mo | 1GB | 10 Players</p>
-                            <button type="button" class="btn btn-outline-success">Order Now</button>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-4 pt-2 mb-2">
-                    <div class="card" style="width: auto">
-                        <img class="card-img-top" src="images\wood500x500.png" alt="Wood" style="width:100%">
-                        <div class="card-body">
-                            <h3 class="card-title">Starter Plus</h3>
-                            <p class="card-text">$6.00/mo | 2GB | 25 Players</p>
-                            <button type="button" class="btn btn-outline-success">Order Now</button>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-4 pt-2 mb-2">
-                    <div class="card" style="width: auto">
-                    <img class="card-img-top" src="images\stone500x500.png" alt="Stone" style="width:100%">
-                        <div class="card-body">
-                            <h3 class="card-title">Intermediate</h3>
-                            <p class="card-text">$12.00/mo | 4GB | 50 Players</p>
-                            <button type="button" class="btn btn-outline-success">Order Now</button>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-4 pt-2 mb-2">
-                <div class="card" style="width: auto">
-                    <img class="card-img-top" src="images\gold500x500.png" alt="Gold" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title">Intermediate Plus</h3>
-                        <p class="card-text">$24.00/mo | 8GB | 100 Players</p>
-                        <button type="button" class="btn btn-outline-success">Order Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 pt-2 mb-2">
-                <div class="card" style="width: auto">
-                    <img class="card-img-top" src="images\emerald500x500.png" alt="Emerald" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title">Advanced</h3>
-                        <p class="card-text">$36.00/mo | 12GB | 150 Players</p>
-                        <button type="button" class="btn btn-outline-success">Order Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 pt-2 mb-2">
-                <div class="card" style="width: auto">
-                    <img class="card-img-top" src="images\diamond500x500.png" alt="Diamond" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title">Advanced Plus</h3>
-                        <p class="card-text">$48.00/mo | 16GB | 200 Players</p>
-                        <button type="button" class="btn btn-outline-success">Order Now</button>
+<body>
+    <!-- <h1>Minecraft Hosting</h1> -->
+
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h2 class="text-center font-weight-bold">Start Your 2-Day Free Trial</h2>
+                <p class="text-center">No credit card needed. Pay before your trial ends to keep your server.</p>
+                <div class="play-container" style="margin: 5% 5% 5% 5%;">
+                    <!-- CSS margin order: top right bottom left (clockwise)-->
+                    <div class="container">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="sel1">Plan</label>
+                                <select class="form-control" id="plan">
+                                    <option>Starter - $3.00/mo | 1GB | 10 Players</option>
+                                    <option>Starter Plus - $6.00/mo | 2GB | 25 Players</option>
+                                    <option>Intermediate - $12.00/mo | 4GB | 50 Players</option>
+                                    <option>Intermediate Plus - $24.00/mo | 8GB | 100 Players</option>
+                                    <option>Advanced - $36.00/mo | 12GB | 150 Players</option>
+                                    <option>Advanced Plus - $48.00/mo | 16GB | 200 Players</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-success">Launch Your Server</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Javascript: jQuery, Popper.js, Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center font-weight-bold">Why choose us?</h2>
+                </div>
+                <div class="col-sm-4">
+                    <!-- empty -->
+                </div>
+                <div class="col-sm-4">
+                    <p>Reason 1</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>Reason 2</p>
+                </div>
+                <div class="col-sm-2">
+                    <!-- empty -->
+                </div>
+            </div>
+          </div>
+
+        <div class="jumbotron">
+            <div class="container">
+                <p class="text-center">Got a question? Shoot us a message at <span
+                        class="text-dark-green">support@minecrafthosting.com</span>, we'll get back to you within 48
+                    hours.</p>
+            </div>
+        </div>
+
+
+        <!-- Javascript: jQuery, Popper.js, Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+
 </html>
