@@ -14,7 +14,6 @@ Description: Custom styling for Minecraft Hosting website
     --pink: #ff79c6;
     --cyan: #8be9fd;
     --gray: #bfbfbf;
-
     --mute-black: #44475a;
     --mute-red: #ff6e67;
     --mute-green: #5af78e;
@@ -23,49 +22,54 @@ Description: Custom styling for Minecraft Hosting website
     --mute-pink: #ff92d0;
     --mute-cyan: #9aedfe;
     --mute-gray: #f8f8f2;
-
     /* https://draculatheme.com/contribute/ */
-    --background: #eeeeee;	
-    --currentLine: #44475a;	
-    --foreground: #f8f8f2;	
-    --comment:	#6272a4;	
-  }
+    --background: #eeeeee;
+    --currentLine: #44475a;
+    --foreground: #f8f8f2;
+    --comment: #6272a4;
+}
 
-  /* importing Nunito Font from Google Fonts */
-  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* importing Nunito Font from Google Fonts */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
   body {
     font-family: 'Nunito', sans-serif !important;
     background-color: var(--mute-black) !important;
-}
+} */
 
-.card {
-  background-color: var(--gray);
-  color: var(--black);
-}
+
+/* .card {
+    background-color: var(--gray);
+    color: var(--black);
+} */
 
 .play-container {
     padding: 2em;
     height: 90%;
     width: 90%;
     border-radius: .5em;
-    box-shadow: 
-    -12px -12px 12px 0 rgba(255,255,255,1),
-    12px 12px 12px 0 rgba(0,0,0,.03);
+    box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, .03);
+}
+
+.green-container {
+    background-color: #28a745;
 }
 
 .text-mute-purple {
-  color: var(--mute-purple);
+    color: var(--mute-purple);
 }
 
 .text-purple {
-  color: #9272D2;
+    color: #9272D2;
 }
 
 .jumbotron {
-  background-color: var(--background) !important;
+    background-color: var(--background) !important;
 }
 
 .text-dark-green {
-  color: #28a745;
+    color: #28a745;
 }
