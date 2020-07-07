@@ -1,2 +1,2 @@
 # Minecraft-Hosting
-Start-up Minecraft server hosting company 
+Minecraft Hosting Website
